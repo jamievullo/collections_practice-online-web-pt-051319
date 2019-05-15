@@ -29,6 +29,12 @@ def reverse_array(array)
 end
 
 #6
+def kesha_maker (array)
+  array.collect do |element|
+    element[2] = "$"
+    element
+  end
+end
 
 #7
 def find_a(array)
