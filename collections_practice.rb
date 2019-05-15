@@ -10,10 +10,10 @@ end
 
 #3
 def sort_array_char_count(array)
-  #new_array = []
+  new_array = []
   array.map do |count| 
     puts count.length 
-  #new_array << count.length
+  new_array << count.length
 end 
  count.sort 
 end
