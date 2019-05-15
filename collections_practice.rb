@@ -11,8 +11,7 @@ end
 #3
 def sort_array_char_count(array)
   new_array = []
-  array.map do |count| 
-    puts count.length 
+  array.each {|count| puts count.length} 
   new_array << count.length
 end 
  new_array.sort 
