@@ -10,15 +10,14 @@ def sort_array_desc(array)
 end
 
 #3
-def sort_array_char_count(array)
-  new_array = []
-  array.each do |count| 
-    binding.pry 
-    puts count.length 
-  new_array << count.length
-end 
- new_array.sort 
-end
+# def sort_array_char_count(array)
+#   new_array = []
+#   array.each do |count| 
+#   puts count.length 
+#   new_array << count.length
+# end 
+# new_array.sort 
+# end
 
 #4
 
