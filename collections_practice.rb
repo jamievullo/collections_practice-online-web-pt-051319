@@ -11,12 +11,12 @@ end
 
 #3
 def sort_array_char_count(array)
-  new_array = []
-  array.each do |element| 
-  element.length 
-  new_array << element
-end 
-new_array.sort
+#   new_array = []
+#   array.each do |element| 
+#   element.length 
+#   new_array << element
+# end 
+# new_array.sort
 end
 
 
