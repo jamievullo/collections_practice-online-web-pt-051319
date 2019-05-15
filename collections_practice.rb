@@ -12,6 +12,7 @@ end
 #3
 def sort_array_char_count(array)
  array.sort {|x,y| y <=> x }
+ element.length
    
 end
 
