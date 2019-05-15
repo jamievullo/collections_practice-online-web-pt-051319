@@ -16,7 +16,7 @@ def sort_array_char_count(array)
   element.length.sort
   new_array << element
 end 
-new_array.sort 
+new_array 
 end
 
 
