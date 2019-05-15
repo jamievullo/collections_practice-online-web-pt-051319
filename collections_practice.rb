@@ -13,7 +13,7 @@ end
 def sort_array_char_count(array)
   new_array = []
   array.each do |count| 
-  puts count.length 
+  puts count.length.to_i 
   new_array << count.length
 end 
 new_array.sort 
