@@ -14,7 +14,7 @@ def sort_array_char_count(array)
   new_array = []
   array.each do |element| 
   element.length
-  new_array << element.sort
+  new_array << element.length
 end 
 new_array 
 end
