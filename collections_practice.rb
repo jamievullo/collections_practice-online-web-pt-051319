@@ -10,12 +10,12 @@ end
 
 #3
 def sort_array_char_count(array)
-  new_array = []
-  array.each do |count| 
+  #new_array = []
+  array.map do |count| 
     puts count.length 
-  new_array << count.length
+  #new_array << count.length
 end 
- new_array.sort 
+ count.sort 
 end
 
 #4
@@ -24,3 +24,4 @@ end
 def reverse_array(array)
   array.reverse 
 end
+
