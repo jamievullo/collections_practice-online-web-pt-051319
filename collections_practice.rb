@@ -15,7 +15,7 @@ def sort_array_char_count(array)
     puts count.length 
   new_array << count.length
 end 
- count.sort 
+ new_array.sort 
 end
 
 #4
