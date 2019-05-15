@@ -31,9 +31,14 @@ end
 #6
 
 #7
+def find_a(array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
 
 #8
-def sum_array (array)
+def sum_array(array)
   array.inject do |sum, num|
     sum + num
   end
