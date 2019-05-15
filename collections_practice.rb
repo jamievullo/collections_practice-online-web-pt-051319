@@ -19,6 +19,10 @@ end
 # new_array.sort 
 # end
 
+def sort_array_char_count(array)
+  array.sort.length 
+end
+
 #4
 
 #5
