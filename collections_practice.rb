@@ -33,7 +33,6 @@ end
 #7
 
 #8
-
 def sum_array (array)
   array.inject do |sum, num|
     sum + num
